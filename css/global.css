@@ -1,0 +1,108 @@
+html {
+  font-family: "Open Sans";
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #393939;
+}
+
+h1,
+h2 {
+  font-family: "Open Sans";
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #393939;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 2.0625rem;
+  font-weight: 300;
+  color: #393939;
+  margin: 0;
+}
+
+/* this makes the main nav text an in-line block element */
+.nav-text {
+  display: inline-block;
+}
+
+/* this gives the color to all navs and footer */
+nav,
+footer {
+  background-color: #fff0ed;
+}
+
+/* this determines the display property for the nav on both pages */
+.prm-nav {
+  display: block;
+  padding: 0.5rem;
+}
+
+/* this makes all the ul elements inline-block */
+.prm-nav__list,
+.sec-nav__list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+/* this is going to be prm-nav__img -- using BEM convention*/
+/* .bean-image-logo { */
+.prm-nav__img {
+  min-width: 3.125rem;
+  max-width: 7.5rem;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+/* this removes the bullets from all the li elements */
+.prm-nav__list,
+.sec-nav__list {
+  list-style-type: none;
+}
+
+/* this makes all li elements in all ul inline-block  in primary nav*/
+.prm-nav__button {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+/* this makes all li elements in all ul inline-block in secondary nav */
+.sec-nav__button {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.prm-nav__button a {
+  box-sizing: border-box;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  text-decoration: none;
+  color: #393939;
+}
+
+/*this makes the shop now button nitro blue on the menu page*/
+#shop-now-menu {
+  color: #5bacc3;
+}
+/*this makes the shop now button nitro blue on the main page*/
+#shop-now-main {
+  color: #5bacc3;
+}

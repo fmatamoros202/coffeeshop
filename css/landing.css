@@ -1,0 +1,168 @@
+/* background color change for section containin "Nitro Coffee"
+and big coffee bag img */
+
+header {
+  background-color: #fff0ed;
+}
+
+.product-card__img {
+  min-height: 15rem;
+  max-height: 34.275rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10%;
+}
+
+.social-logos {
+  min-width: 3.125rem;
+  max-width: 7.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.discount-section__text {
+  background-color: #393939;
+  min-width: min-content;
+  max-width: 100%;
+  font-size: 2.8125rem;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.discount-section__text__word {
+  font-weight: 700;
+}
+
+.discount-section {
+  margin: 15% 5% 15% 5%;
+}
+
+.hero-banner__cta,
+.product__cta {
+  background-color: #5bacc3;
+  min-width: min-content;
+  font-family: "Open Sans";
+  font-size: 1.3125rem;
+  color: white;
+  border: none;
+  padding: 0.125rem;
+}
+
+.hero-banner {
+  width: 40%;
+  height: 100%;
+  margin-top: 10%;
+  padding: 0;
+  /* border: 2px rgb(0, 0, 0) solid; */
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hero-banner__header,
+.hero-banner__text {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 75%;
+  text-align: left;
+  padding-left: 10%;
+  margin-left: 5%;
+}
+
+.hero-banner__cta {
+  display: block;
+  box-sizing: border-box;
+  margin-left: 15%;
+  min-width: 11.25rem;
+  max-width: 80%;
+  padding: 0.625rem;
+  margin-top: 5%;
+}
+
+.hero-img {
+  padding: 2% 10% 2% 25%;
+  display: inline-block;
+}
+
+.product {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.product-header {
+  margin-bottom: 2.5%;
+}
+
+.product-card {
+  background-color: white;
+  min-width: 20.625rem;
+  max-width: 21.875rem;
+  min-height: 27.5rem;
+  max-height: 28.75rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding-top: 2%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2.5%;
+}
+
+.product-card__price {
+  font-size: 1.75rem;
+}
+
+.product-card__price--color {
+  color: #5bacc3;
+}
+
+.product__cta {
+  display: block;
+  margin: 2% auto;
+  min-width: 11.25rem;
+  max-width: 80%;
+  padding: 0.625rem;
+}
+
+.footer__location {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.footer__schedule {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.footer {
+  padding: 5% 5%;
+}
+
+.footer__social {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  text-align: left;
+  margin-left: 8%;
+}
+
+.footer__location__header,
+.footer__schedule__header {
+  margin-bottom: 5%;
+}
+
+.footer__location__description,
+.footer__schedule__description {
+  margin: 2% 0 0 0;
+}

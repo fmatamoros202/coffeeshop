@@ -1,0 +1,105 @@
+.menu-banner-container {
+  min-height: 35.9375rem;
+  max-height: 37.5rem;
+}
+
+.menu-banner-container__img {
+  background-image: url(../assets/coffee-circle.jpg);
+  background-repeat: no-repeat;
+  min-width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-banner__box {
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-height: 12.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.menu-banner__box--color {
+  background-color: #393939;
+}
+
+#htdrinks,
+#cldrinks,
+#pastries {
+  text-align: center;
+  margin: 1rem 0 2.5rem 0;
+}
+
+section h3 {
+  text-align: center;
+}
+
+.items {
+  background-color: #fff0ed;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.items__header,
+.items__subheader,
+.items__description {
+  box-sizing: border-box;
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+  text-align: center;
+}
+
+.items__description--font-style {
+  font-style: italic;
+}
+
+.items__description--color {
+  color: #5bacc3;
+}
+
+.items--background-color {
+  background-color: #f7f7f7;
+}
+
+.prm-nav {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.prm-nav__button a {
+  box-sizing: border-box;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  text-decoration: none;
+  color: #393939;
+}
+
+/*this makes the shop now button nitro blue*/
+#shop-now-menu {
+  color: #5bacc3;
+}
+
+.sec-nav {
+  background-color: #393939;
+  font-family: "Open Sans";
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1rem;
+  min-width: 98.5%;
+  max-width: 100%;
+  min-height: 3.75rem;
+  max-height: 5rem;
+  padding: 1rem 0.625rem 1rem 0.625rem;
+}
+
+.sec-nav__button a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1.25rem;
+  border-left: #5bacc3 0.25rem solid;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
