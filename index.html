@@ -13,10 +13,10 @@
     <header>
         <nav class="prm-nav">
             <a href="./index.html">
-                <img class="prm-nav__img" src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"/>
+                <img class="prm-nav__img prm-nav--locleft" src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"/>
             </a>
-            <h3 class="nav-text">nitro</h3>
-            <ul class="prm-nav__list">
+            <h3 class="nav-text prm-nav--locleft">nitro</h3>
+            <ul class="prm-nav__list prm-nav--locright">
                 <li class="prm-nav__button">
                     <a href="./index.html">ABOUT</a>
                 </li>
@@ -40,21 +40,23 @@
     <main>
         <section class="product">
             <h2 class="product-header">Our Products</h2>
-            <div class="product-card">
-                <img class="product-card__img" src="./assets/coffeebeans.png" alt="coffee bean"/>
-                <h3>Coffee Beans</h3>
-                <p class="product-card__price product-card__price--color">$18.99</p>
-            </div>
-            <div class="product-card">
-                <img class="product-card__img" src="./assets/coldbrew.png" alt="cold brew"/>
-                <h3>Cold Brew</h3>
-                <p class="product-card__price product-card__price--color">$4.99</p>
-            </div>
-            <div class="product-card">
-                <img class="product-card__img" src="./assets/inhousebrew.png" alt="In-house brew"/>
-                <h3>In-house Brew</h3>
-                <p class="product-card__price product-card__price--color">$2.99</p>
-            </div>
+            <section class="product-card-master">
+                <div class="product-card">
+                    <img class="product-card__img" src="./assets/coffeebeans.png" alt="coffee bean"/>
+                    <h3>Coffee Beans</h3>
+                    <p class="product-card__price product-card__price--color">$18.99</p>
+                </div>
+                <div class="product-card">
+                    <img class="product-card__img" src="./assets/coldbrew.png" alt="cold brew"/>
+                    <h3>Cold Brew</h3>
+                    <p class="product-card__price product-card__price--color">$4.99</p>
+                </div>
+                <div class="product-card">
+                    <img class="product-card__img" src="./assets/inhousebrew.png" alt="In-house brew"/>
+                    <h3>In-house Brew</h3>
+                    <p class="product-card__price product-card__price--color">$2.99</p>
+                </div>
+            </section>
             <a href="./pages/menu.html">
                 <button class="product__cta">VIEW ALL</button>
             </a>

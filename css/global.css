@@ -50,14 +50,24 @@ footer {
 
 /* this determines the display property for the nav on both pages */
 .prm-nav {
-  display: block;
-  padding: 0.5rem;
+  width: 100%;
+  /* display: block; */
+  display: flex;
+  padding: 1rem;
+}
+
+.prm-nav--locright {
+  align-content: right;
+}
+
+.prm-nav--locleft {
+  align-content: left;
 }
 
 /* this makes all the ul elements inline-block */
 .prm-nav__list,
 .sec-nav__list {
-  display: inline-block;
+  /* justify-content: center; */
   margin: 0;
   padding: 0;
 }
