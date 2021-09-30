@@ -162,7 +162,6 @@ header {
   box-sizing: border-box;
   margin: 10% 5%;
   width: 25rem;
-  /* width: fit-content; */
   background: url(/assets/coldbrewbackground.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -181,7 +180,6 @@ header {
   box-sizing: border-box;
   margin-left: 20%;
   min-width: 11.25rem;
-  /* max-width: 80%; */
   padding: 0.625rem;
   margin-top: 5%;
 }
@@ -231,36 +229,28 @@ header {
   font-weight: 700;
 }
 
-/* .discount-section {
-  margin: 15% 5% 15% 5%;
-} */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 5%;
+}
 
 .footer__location {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
   text-align: left;
-  margin-left: 5%;
 }
 
 .footer__schedule {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
   text-align: left;
-  margin-left: 5%;
-}
-
-.footer {
-  padding: 5% 5%;
 }
 
 .footer__social {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
   text-align: left;
-  margin-left: 8%;
 }
 
 .footer__location__header,
@@ -270,5 +260,9 @@ header {
 
 .footer__location__description,
 .footer__schedule__description {
-  margin: 2% 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.footer__schedule__description__highlight {
+  font-weight: 700;
 }
