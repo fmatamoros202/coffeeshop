@@ -26,8 +26,8 @@
   background-color: #393939;
 }
 
-#htdrinks,
-#cldrinks,
+#hot-drinks,
+#cold-drinks,
 #pastries {
   text-align: center;
   margin: 1rem 0 2.5rem 0;
@@ -64,25 +64,27 @@ section h3 {
   background-color: #f7f7f7;
 }
 
-.prm-nav {
+/* this is included in global*/
+/* .primary-nav {
   max-width: 100%;
   box-sizing: border-box;
-}
+} */
 
-.prm-nav__button a {
+/* this item is repeated in global */
+/* .primary-nav__button a {
   box-sizing: border-box;
   margin: 0.625rem;
   padding: 0.625rem;
   text-decoration: none;
   color: #393939;
-}
+} */
 
 /*this makes the shop now button nitro blue*/
 #shop-now-menu {
   color: #5bacc3;
 }
 
-.sec-nav {
+.secondary-nav {
   background-color: #393939;
   font-family: "Open Sans";
   text-align: center;
@@ -95,7 +97,7 @@ section h3 {
   padding: 1rem 0.625rem 1rem 0.625rem;
 }
 
-.sec-nav__button a {
+.secondary-nav__button a {
   color: white;
   text-decoration: none;
   padding: 0 1.25rem;

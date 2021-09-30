@@ -11,31 +11,31 @@
 </head>
 <body>
     <header>
-        <nav class="prm-nav">
+        <nav class="primary-nav">
             <a href="./index.html">
-                <img class="prm-nav__img prm-nav--locleft" src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"/>
+                <img class="prm-nav__img" src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"/>
             </a>
-            <h3 class="nav-text prm-nav--locleft">nitro</h3>
-            <ul class="prm-nav__list prm-nav--locright">
-                <li class="prm-nav__button">
-                    <a href="./index.html">ABOUT</a>
+            <h3>nitro</h3>
+            <ul class="primary-nav__list">
+                <li class="primary-nav__button">
+                    <a class="primary-nav-link" href="./index.html">ABOUT</a>
                 </li>
-                <li class="prm-nav__button">
-                    <a href="./pages/menu.html">MENU</a>
+                <li class="primary-nav__button">
+                    <a class="primary-nav-link" href="./pages/menu.html">MENU</a>
                 </li>
-                <li class="prm-nav__button">
-                    <a id="shop-now-main" href="./pages/menu.html">SHOP NOW</a>
+                <li class="primary-nav__button">
+                    <a class="primary-nav-link" id="shop-now-main" href="./pages/menu.html">SHOP NOW</a>
                 </li>
             </ul>
         </nav>
-        <div class="hero-banner">
-            <h1 class="hero-banner__header">Nitro Coffe</h1>
-            <p class="hero-banner__text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffee species</p>
-            <a href="./pages/menu.html">
-                <button class="hero-banner__cta">SHOP NOW</button>
-            </a>
-        </div>
-        <img class = "hero-img" src="./assets/coffeebeans-hero.png" alt="coffee bag"/>
+        <section class="hero-banner">
+            <section class="hero-banner__content">
+                <h1 class="hero-banner__content__header">Nitro Coffee</h1>
+                <p class="hero-banner__content__text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffee species.</p>
+                <a class="hero-banner__content__cta" href="./pages/menu.html">SHOP NOW</a>
+            </section>
+            <img class = "hero-banner__image" src="./assets/coffeebeans-hero.png" alt="coffee bag"/>
+        </section>
     </header>
     <main>
         <section class="product">
@@ -57,9 +57,7 @@
                     <p class="product-card__price product-card__price--color">$2.99</p>
                 </div>
             </section>
-            <a href="./pages/menu.html">
-                <button class="product__cta">VIEW ALL</button>
-            </a>
+            <a class="product__cta" href="./pages/menu.html">VIEW ALL</a>
         </section>
         <section class="discount-section">
             <p class="discount-section__text">Get 20% off your first order with code: 
