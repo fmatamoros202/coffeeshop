@@ -1,29 +1,41 @@
 .menu-banner-container {
+  display: flex;
   min-height: 35.9375rem;
-  max-height: 37.5rem;
+  position: relative;
+  width: 100%;
 }
 
 .menu-banner-container__img {
   background-image: url(../assets/coffee-circle.jpg);
-  background-repeat: no-repeat;
-  min-width: 100%;
-  max-width: 100%;
   background-size: cover;
   background-position: center;
 }
 
-.menu-banner__box {
+.menu-banner__box__text {
+  display: inline;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0.625rem;
+  right: 0.625rem;
   min-width: 17.5rem;
-  max-width: 18.75rem;
   min-height: 11.25rem;
-  max-height: 12.5rem;
-  text-align: center;
+  border: #5bacc3 0.3125rem solid;
   color: #fff;
-  margin: 0 auto;
+  align-self: center;
 }
 
-.menu-banner__box--color {
+.menu-banner__box {
+  box-sizing: border-box;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 17.5rem;
+  height: 11.25rem;
+  text-align: center;
+  margin: auto auto;
   background-color: #393939;
+  color: #fff;
 }
 
 #hot-drinks,

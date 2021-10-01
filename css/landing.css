@@ -38,8 +38,7 @@ header {
   margin: 2% 10% 2% 25%;
 }
 
-.hero-banner__content__cta,
-.product__cta {
+.hero-banner__content__cta {
   background-color: #5bacc3;
   max-width: 30%;
   font-size: 1.3125rem;
@@ -47,7 +46,34 @@ header {
   color: white;
   border: none;
   padding: 1rem;
+  position: relative;
 }
+
+.product__cta {
+  background-color: #5bacc3;
+  box-sizing: border-box;
+  display: inline;
+  position: relative;
+  max-width: 30%;
+  font-size: 1.3125rem;
+  text-align: center;
+  color: white;
+  border: none;
+  padding: 1rem;
+  /* border: 0.3125rem solid #393939; */
+}
+
+/* .product__cta__background {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #5bacc3;
+  width: 10.75rem;
+  height: 1.87rem;
+  position: absolute;
+  padding: 15%;
+  bottom: 0.625rem;
+  right: 0.625rem;
+} */
 
 .product {
   display: flex;
