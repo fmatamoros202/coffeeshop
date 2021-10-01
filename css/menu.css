@@ -1,7 +1,7 @@
 .menu-banner-container {
   display: flex;
   min-height: 35.9375rem;
-  position: relative;
+  /* position: relative; */
   width: 100%;
 }
 
@@ -11,7 +11,7 @@
   background-position: center;
 }
 
-.menu-banner__box__text {
+.menu-banner-container__box__text {
   display: flex;
   box-sizing: border-box;
   position: relative;
@@ -25,27 +25,7 @@
   justify-content: center;
 }
 
-.menu-banner__box__text:hover {
-  display: inline;
-  box-sizing: border-box;
-  position: relative;
-  /* bottom: 0.625rem; */
-  /* right: 0.625rem; */
-  min-width: 17.5rem;
-  min-height: 11.25rem;
-  /* border: #5bacc3 0.3125rem solid; */
-  color: #fff;
-  align-self: center;
-}
-
-.menu-banner__box__text--with-transition {
-  /* transition: all 3s ease; */
-  /* -webkit-transition: all 3s ease;
-  -moz-transition: all 3s ease;
-  -o-transition: all 3s ease; */
-}
-
-.menu-banner__box {
+.menu-banner-container__box {
   box-sizing: border-box;
   position: relative;
   display: flex;

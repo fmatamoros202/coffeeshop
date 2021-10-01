@@ -24,56 +24,58 @@ header {
   text-align: left;
   margin-left: 20%;
 }
-
-.hero-banner__content__cta {
+.hero-banner__content__cta-container {
+  background-color: #5bacc3;
   box-sizing: border-box;
+  position: relative;
+  width: 11.25rem;
+  font-size: 1.3125rem;
   margin-left: 20%;
-  min-width: 11.25rem;
-  max-width: 80%;
+  margin-top: 5%;
+}
+
+.hero-banner__content__cta-contanier__item {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 100%;
+  border: 0.125rem solid #393939;
+  color: white;
   padding: 0.625rem;
-  margin-top: 4.5%;
+  bottom: 0.3125rem;
+  right: 0.3125rem;
 }
 
 .hero-banner__image {
   margin: 2% 10% 2% 25%;
 }
 
-.hero-banner__content__cta {
-  background-color: #5bacc3;
-  max-width: 30%;
-  font-size: 1.3125rem;
-  text-align: center;
-  color: white;
-  border: none;
-  padding: 1rem;
-  position: relative;
-}
-
+/* this creates the off-set display on the button //this is the container */
 .product__cta {
   background-color: #5bacc3;
   box-sizing: border-box;
-  display: inline;
   position: relative;
-  max-width: 30%;
+  min-width: 11.25rem;
   font-size: 1.3125rem;
   text-align: center;
   color: white;
   border: none;
-  padding: 1rem;
-  /* border: 0.3125rem solid #393939; */
+  margin: 5% auto;
 }
 
-/* .product__cta__background {
+/* use to create the off-set on the button // this is the child element */
+.product__cta__background {
   box-sizing: border-box;
-  display: inline-block;
-  background-color: #5bacc3;
-  width: 10.75rem;
-  height: 1.87rem;
-  position: absolute;
-  padding: 15%;
-  bottom: 0.625rem;
-  right: 0.625rem;
-} */
+  display: flex;
+  border: 0.125rem solid #393939;
+  min-width: 11.25rem;
+  justify-content: center;
+  position: relative;
+  padding: 0.625rem;
+  bottom: 0.3125rem;
+  right: 0.3125rem;
+}
 
 .product {
   display: flex;
@@ -83,6 +85,7 @@ header {
   flex-wrap: wrap;
   background-color: #f7f7f7;
 }
+
 .product__header {
   margin: 2.5% auto;
 }
@@ -151,15 +154,6 @@ header {
   font-weight: 700;
 }
 
-.product__cta {
-  display: block;
-  margin: 2.5% auto;
-  min-width: 11.25rem;
-  max-width: 80%;
-  padding: 0.625rem;
-  margin-bottom: 5%;
-}
-
 .discount {
   display: flex;
   flex-direction: column;
@@ -181,33 +175,56 @@ header {
 }
 
 .discount__main__image-container__image {
-  margin: 25%;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40rem;
+  padding: 10% 5%;
+  /* justify-content: */
+  border: #5bacc3 0.3125rem solid;
+  position: relative;
+  bottom: 2rem;
+  right: 2rem;
 }
 
 .discount__main__image-container {
   box-sizing: border-box;
-  margin: 10% 5%;
-  width: 25rem;
+  position: relative;
+  /* margin: 5% 5%; */
+  width: 31.25rem;
+  height: 40rem;
   background: url(/assets/coldbrewbackground.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 0 5%;
+  margin: 10% 10%;
 }
 
+/* this is the container for creating the off-set button */
 .discount__main__elements__cta {
-  background-color: #5bacc3;
-  max-width: 30%;
-  font-size: 1.3125rem;
-  text-align: center;
-  color: white;
-  border: none;
-  padding: 1rem;
   box-sizing: border-box;
+  position: relative;
+  background-color: #5bacc3;
+  width: 35%;
   margin-left: 20%;
-  min-width: 11.25rem;
+  margin-top: 10%;
+}
+
+/* this is the container for creating the off-set button */
+.discount__main__elements__cta__item {
+  display: flex;
+  position: relative;
+  border: 0.125rem solid #393939;
+  max-width: 100%;
+  font-size: 1.3125rem;
+  justify-content: center;
+  color: white;
   padding: 0.625rem;
-  margin-top: 5%;
+  box-sizing: border-box;
+  min-width: 11.25rem;
+  bottom: 0.3125rem;
+  right: 0.3125rem;
 }
 
 .discount__main__elements__header,
