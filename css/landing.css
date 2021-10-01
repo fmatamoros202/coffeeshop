@@ -1,6 +1,5 @@
 /* background color change for section containin "Nitro Coffee"
 and big coffee bag img */
-
 header {
   background-color: #fff0ed;
 }
@@ -9,15 +8,21 @@ header {
   display: flex;
   width: 100%;
 }
-
+.hero-banner__image {
+  margin: 2% 10% 2% 25%;
+}
 .hero-banner__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 40%;
 }
-
-.hero-banner__content__header,
+.hero-banner__content__header {
+  box-sizing: border-box;
+  width: 70%;
+  text-align: left;
+  margin-left: 20%;
+}
 .hero-banner__content__text {
   box-sizing: border-box;
   width: 70%;
@@ -33,8 +38,7 @@ header {
   margin-left: 20%;
   margin-top: 5%;
 }
-
-.hero-banner__content__cta-contanier__item {
+.hero-banner__content__cta-container__item {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -42,36 +46,6 @@ header {
   min-width: 100%;
   border: 0.125rem solid #393939;
   color: white;
-  padding: 0.625rem;
-  bottom: 0.3125rem;
-  right: 0.3125rem;
-}
-
-.hero-banner__image {
-  margin: 2% 10% 2% 25%;
-}
-
-/* this creates the off-set display on the button //this is the container */
-.product__cta {
-  background-color: #5bacc3;
-  box-sizing: border-box;
-  position: relative;
-  min-width: 11.25rem;
-  font-size: 1.3125rem;
-  text-align: center;
-  color: white;
-  border: none;
-  margin: 5% auto;
-}
-
-/* use to create the off-set on the button // this is the child element */
-.product__cta__background {
-  box-sizing: border-box;
-  display: flex;
-  border: 0.125rem solid #393939;
-  min-width: 11.25rem;
-  justify-content: center;
-  position: relative;
   padding: 0.625rem;
   bottom: 0.3125rem;
   right: 0.3125rem;
@@ -85,11 +59,31 @@ header {
   flex-wrap: wrap;
   background-color: #f7f7f7;
 }
-
 .product__header {
   margin: 2.5% auto;
 }
-
+.product__cta {
+  background-color: #5bacc3;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 11.25rem;
+  font-size: 1.3125rem;
+  text-align: center;
+  color: white;
+  border: none;
+  margin: 5% auto;
+}
+.product__cta__background {
+  box-sizing: border-box;
+  display: flex;
+  border: 0.125rem solid #393939;
+  min-width: 11.25rem;
+  justify-content: center;
+  position: relative;
+  padding: 0.625rem;
+  bottom: 0.3125rem;
+  right: 0.3125rem;
+}
 .product__list {
   display: flex;
   flex-direction: row;
@@ -110,7 +104,6 @@ header {
   padding-top: 2%;
   margin: 2.5%;
 }
-
 .product__list__card__image {
   min-height: 15rem;
   max-height: 34.275rem;
@@ -118,7 +111,6 @@ header {
   background-position: center;
   margin: 2.5% 0;
 }
-
 .product__list__card__description {
   display: flex;
   justify-content: space-between;
@@ -128,24 +120,20 @@ header {
   height: 35%;
   border-radius: 0 0 0.625rem 0.625rem;
 }
-
-.fix {
+.product__list__card__description__container {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-
-.product__list__card__description__header {
+.product__list__card__description__container__header {
   width: 100%;
   margin-left: 5%;
 }
-
-.product__list__card__description__quantity {
+.product__list__card__description__container__quantity {
   width: 100%;
   margin: 0 0 0 5%;
   color: #909090;
 }
-
 .product__list__card__description__price {
   text-align: center;
   font-size: 1.75rem;
@@ -158,14 +146,27 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+.discount__banner {
+  background-color: #393939;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  max-width: 90%;
+  font-size: 2.8125rem;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin: 10% 5%;
+}
+.discount__banner__word {
+  font-weight: 700;
+}
 .discount__main {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .discount__main__elements {
   display: flex;
   flex-direction: column;
@@ -173,35 +174,28 @@ header {
   width: 50%;
   margin: 15% 0;
 }
-
-.discount__main__image-container__image {
+.discount__main__elements__header {
+  width: 70%;
+  margin-left: 20%;
+  text-align: left;
+}
+.discount__main__elements__description {
+  width: 70%;
+  margin-left: 20%;
+  text-align: left;
+}
+.discount__main__elements__graphics {
   display: flex;
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  height: 40rem;
-  padding: 10% 5%;
-  /* justify-content: */
-  border: #5bacc3 0.3125rem solid;
-  position: relative;
-  bottom: 2rem;
-  right: 2rem;
+  flex-direction: row;
+  width: 70%;
+  margin-left: 20%;
+  text-align: left;
+  justify-content: space-between;
 }
-
-.discount__main__image-container {
-  box-sizing: border-box;
-  position: relative;
-  /* margin: 5% 5%; */
-  width: 31.25rem;
-  height: 40rem;
-  background: url(/assets/coldbrewbackground.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 10% 10%;
+.discount__main__elements__graphics__logos {
+  max-width: 3.125rem;
+  justify-content: space-between;
 }
-
-/* this is the container for creating the off-set button */
 .discount__main__elements__cta {
   box-sizing: border-box;
   position: relative;
@@ -210,8 +204,6 @@ header {
   margin-left: 20%;
   margin-top: 10%;
 }
-
-/* this is the container for creating the off-set button */
 .discount__main__elements__cta__item {
   display: flex;
   position: relative;
@@ -226,27 +218,30 @@ header {
   bottom: 0.3125rem;
   right: 0.3125rem;
 }
-
-.discount__main__elements__header,
-.discount__main__elements__description,
-.discount__main__elements__graphics {
-  width: 70%;
-  margin-left: 20%;
-  text-align: left;
+.discount__main__image-container {
+  box-sizing: border-box;
+  position: relative;
+  /* margin: 5% 5%; */
+  width: 31.25rem;
+  height: 40rem;
+  background: url(/assets/coldbrewbackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 10% 10%;
 }
-
-.discount__main__elements__graphics {
+.discount__main__image-container__image {
   display: flex;
-  flex-direction: row;
-  width: 70%;
-  margin-left: 20%;
-  text-align: left;
-  justify-content: space-between;
-}
-
-.discount__main__elements__graphics__logos {
-  max-width: 3.125rem;
-  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40rem;
+  padding: 10% 5%;
+  /* justify-content: */
+  border: #5bacc3 0.3125rem solid;
+  position: relative;
+  bottom: 2rem;
+  right: 2rem;
 }
 
 .social-logos {
@@ -257,55 +252,38 @@ header {
   background-position: center;
 }
 
-.discount__banner {
-  background-color: #393939;
-  min-width: min-content;
-  max-width: 90%;
-  font-size: 2.8125rem;
-  color: white;
-  text-align: center;
-  padding: 1.5rem 1rem;
-  margin: 10% 5%;
-}
-
-.discount__banner__word {
-  font-weight: 700;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 5% 5%;
 }
-
 .footer__location {
   display: inline-block;
   vertical-align: top;
   text-align: left;
 }
-
+.footer__location__header {
+  margin-bottom: 5%;
+}
+.footer__location__description {
+  margin: 0 0 0 0;
+}
 .footer__schedule {
   display: inline-block;
   vertical-align: top;
   text-align: left;
 }
-
+.footer__schedule__header {
+  margin-bottom: 5%;
+}
+.footer__schedule__description {
+  margin: 0 0 0 0;
+}
+.footer__schedule__description__highlight {
+  font-weight: 700;
+}
 .footer__social {
   display: inline-block;
   vertical-align: top;
   text-align: left;
-}
-
-.footer__location__header,
-.footer__schedule__header {
-  margin-bottom: 5%;
-}
-
-.footer__location__description,
-.footer__schedule__description {
-  margin: 0 0 0 0;
-}
-
-.footer__schedule__description__highlight {
-  font-weight: 700;
-}
+}/*# sourceMappingURL=landing.css.map */

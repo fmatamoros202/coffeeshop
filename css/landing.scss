@@ -1,0 +1,325 @@
+/* background color change for section containin "Nitro Coffee"
+and big coffee bag img */
+
+@use 'colors';
+
+header {
+  background-color: colors.$secondary;
+}
+
+.hero-banner {
+  display: flex;
+  width: 100%;
+
+  &__image {
+    margin: 2% 10% 2% 25%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+    &__header {
+      box-sizing: border-box;
+      width: 70%;
+      text-align: left;
+      margin-left: 20%;
+    }
+
+    &__text {
+      box-sizing: border-box;
+      width: 70%;
+      text-align: left;
+      margin-left: 20%;
+    }
+
+    &__cta-container {
+      background-color: colors.$primary;
+      box-sizing: border-box;
+      position: relative;
+      width: 11.25rem;
+      font-size: 1.3125rem;
+      margin-left: 20%;
+      margin-top: 5%;
+
+      &__item {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        position: relative;
+        min-width: 100%;
+        border: 0.125rem solid colors.$dark;
+        color: colors.$base;
+        padding: 0.625rem;
+        bottom: 0.3125rem;
+        right: 0.3125rem;
+      }
+    }
+  }
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: colors.$light-light;
+
+  &__header {
+    margin: 2.5% auto;
+  }
+
+  &__cta {
+    background-color: colors.$primary;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 11.25rem;
+    font-size: 1.3125rem;
+    text-align: center;
+    color: colors.$base;
+    border: none;
+    margin: 5% auto;
+
+    &__background {
+      box-sizing: border-box;
+      display: flex;
+      border: 0.125rem solid colors.$dark;
+      min-width: 11.25rem;
+      justify-content: center;
+      position: relative;
+      padding: 0.625rem;
+      bottom: 0.3125rem;
+      right: 0.3125rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: colors.$base;
+      min-width: 20.625rem;
+      max-width: 21.875rem;
+      min-height: 27.5rem;
+      max-height: 28.75rem;
+      border-radius: 0.625rem;
+      box-shadow: 0 0.3125rem 0.5625rem -0.0625rem rgba(0, 0, 0, 0.25);
+      padding-top: 2%;
+      margin: 2.5%;
+
+      &__image {
+        min-height: 15rem;
+        max-height: 34.275rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 2.5% 0;
+      }
+
+      &__description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: colors.$secondary;
+        width: 100%;
+        height: 35%;
+        border-radius: 0 0 0.625rem 0.625rem;
+
+        &__container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          &__header {
+            width: 100%;
+            margin-left: 5%;
+          }
+
+          &__quantity {
+            width: 100%;
+            margin: 0 0 0 5%;
+            color: colors.$light-dark;
+          }
+        }
+
+        &__price {
+          text-align: center;
+          font-size: 1.75rem;
+          color: colors.$primary;
+          margin-right: 5%;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+.discount {
+  display: flex;
+  flex-direction: column;
+
+  &__banner {
+    background-color: colors.$dark;
+    min-width: min-content;
+    max-width: 90%;
+    font-size: 2.8125rem;
+    color: colors.$base;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin: 10% 5%;
+
+    &__word {
+      font-weight: 700;
+    }
+  }
+
+  &__main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__elements {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      margin: 15% 0;
+
+      &__header {
+        width: 70%;
+        margin-left: 20%;
+        text-align: left;
+      }
+
+      &__description {
+        width: 70%;
+        margin-left: 20%;
+        text-align: left;
+      }
+
+      &__graphics {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin-left: 20%;
+        text-align: left;
+        justify-content: space-between;
+
+        &__logos {
+          max-width: 3.125rem;
+          justify-content: space-between;
+        }
+      }
+
+      &__cta {
+        box-sizing: border-box;
+        position: relative;
+        background-color: colors.$primary;
+        width: 35%;
+        margin-left: 20%;
+        margin-top: 10%;
+
+        &__item {
+          display: flex;
+          position: relative;
+          border: 0.125rem solid colors.$dark;
+          max-width: 100%;
+          font-size: 1.3125rem;
+          justify-content: center;
+          color: colors.$base;
+          padding: 0.625rem;
+          box-sizing: border-box;
+          min-width: 11.25rem;
+          bottom: 0.3125rem;
+          right: 0.3125rem;
+        }
+      }
+    }
+
+    &__image-container {
+      box-sizing: border-box;
+      position: relative;
+      /* margin: 5% 5%; */
+      width: 31.25rem;
+      height: 40rem;
+      background: url(/assets/coldbrewbackground.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 10% 10%;
+
+      &__image {
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: 40rem;
+        padding: 10% 5%;
+        /* justify-content: */
+        border: colors.$primary 0.3125rem solid;
+        position: relative;
+        bottom: 2rem;
+        right: 2rem;
+      }
+    }
+  }
+}
+
+.social-logos {
+  min-width: 3.125rem;
+  max-width: 7.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 5%;
+
+  &__location {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+    &__header {
+      margin-bottom: 5%;
+    }
+    &__description {
+      margin: 0 0 0 0;
+    }
+  }
+
+  &__schedule {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+    &__header {
+      margin-bottom: 5%;
+    }
+
+    &__description {
+      margin: 0 0 0 0;
+
+      &__highlight {
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__social {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+}

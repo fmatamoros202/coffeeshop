@@ -3,7 +3,6 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
-
 a {
   text-decoration: none;
   margin: 0;
@@ -13,7 +12,6 @@ a {
 body {
   margin: 0;
 }
-
 p {
   font-weight: 400;
   font-size: 1.125rem;
@@ -56,6 +54,7 @@ footer {
 /* .primary-nav:last-child {
     justify-content: flex-end;
   } */
+
 .primary-nav__list {
   width: 100%;
   justify-content: right;
@@ -76,7 +75,6 @@ footer {
   list-style-type: none;
   align-items: center;
 }
-
 /* this is going to be prm-nav__img -- using BEM convention*/
 /* .bean-image-logo { */
 .primary-nav__img {
@@ -92,12 +90,14 @@ footer {
     vertical-align: top;
     box-sizing: border-box;
   } */
+
 /* this makes all li elements in all ul inline-block in secondary nav *** not needed after flex box display*/
 /* .secondary-nav__button {
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
   } */
+
 .primary-nav-link,
 .primary-nav__button a {
   box-sizing: border-box;
@@ -111,8 +111,7 @@ footer {
 #shop-now-menu {
   color: #5bacc3;
 }
-
 /*this makes the shop now button nitro blue on the main page*/
 #shop-now-main {
   color: #5bacc3;
-}/*# sourceMappingURL=global.css.map */
+}
