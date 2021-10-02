@@ -1,7 +1,8 @@
 /* background color change for section containin "Nitro Coffee"
 and big coffee bag img */
 
-@use 'colors';
+@use "./partials/colors";
+@use "./partials/keyframes";
 
 header {
   background-color: colors.$secondary;
@@ -56,6 +57,10 @@ header {
         bottom: 0.3125rem;
         right: 0.3125rem;
       }
+      &__item:active {
+        bottom: 0;
+        right: 0;
+      }
     }
   }
 }
@@ -92,6 +97,10 @@ header {
       padding: 0.625rem;
       bottom: 0.3125rem;
       right: 0.3125rem;
+    }
+    &__background:active {
+      bottom: 0;
+      right: 0;
     }
   }
 
@@ -174,6 +183,8 @@ header {
     text-align: center;
     padding: 1.5rem 1rem;
     margin: 10% 5%;
+    animation-name: "background-change";
+    animation-duration: 60s;
 
     &__word {
       font-weight: 700;
@@ -241,6 +252,10 @@ header {
           bottom: 0.3125rem;
           right: 0.3125rem;
         }
+        &__item:active {
+          bottom: 0;
+          right: 0;
+        }
       }
     }
 
@@ -269,6 +284,11 @@ header {
         bottom: 2rem;
         right: 2rem;
       }
+      &__image:hover {
+        animation: "rotate";
+        animation-duration: 20s;
+        transition-timing-function: ease-in-out;
+      }
     }
   }
 }
@@ -283,8 +303,28 @@ header {
 
 .footer {
   display: flex;
+  display: relative;
   justify-content: space-between;
   padding: 5% 5%;
+
+  &__logo-images {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.6;
+    margin-left: -8%;
+    margin-right: 100%;
+    margin-top: -4%;
+
+    &--position-right {
+      margin-left: 87%;
+      margin-right: 0%;
+      margin-top: 8%;
+    }
+  }
 
   &__location {
     display: inline-block;

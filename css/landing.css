@@ -1,3 +1,443 @@
+@-webkit-keyframes background-change {
+  0% {
+    background-color: #393939;
+  }
+  2% {
+    background-color: #5bacc3;
+  }
+  4% {
+    background-color: #393939;
+  }
+  8% {
+    background-color: #5bacc3;
+  }
+  10% {
+    background-color: #393939;
+  }
+  12% {
+    background-color: #5bacc3;
+  }
+  14% {
+    background-color: #393939;
+  }
+  16% {
+    background-color: #5bacc3;
+  }
+  18% {
+    background-color: #393939;
+  }
+  20% {
+    background-color: #5bacc3;
+  }
+  22% {
+    background-color: #393939;
+  }
+  24% {
+    background-color: #5bacc3;
+  }
+  26% {
+    background-color: #393939;
+  }
+  28% {
+    background-color: #5bacc3;
+  }
+  30% {
+    background-color: #393939;
+  }
+  32% {
+    background-color: #5bacc3;
+  }
+  34% {
+    background-color: #393939;
+  }
+  36% {
+    background-color: #5bacc3;
+  }
+  38% {
+    background-color: #393939;
+  }
+  40% {
+    background-color: #5bacc3;
+  }
+  42% {
+    background-color: #5bacc3;
+  }
+  44% {
+    background-color: #393939;
+  }
+  46% {
+    background-color: #5bacc3;
+  }
+  48% {
+    background-color: #393939;
+  }
+  50% {
+    background-color: #5bacc3;
+  }
+  52% {
+    background-color: #393939;
+  }
+  54% {
+    background-color: #5bacc3;
+  }
+  56% {
+    background-color: #393939;
+  }
+  58% {
+    background-color: #5bacc3;
+  }
+  60% {
+    background-color: #393939;
+  }
+  62% {
+    background-color: #5bacc3;
+  }
+  64% {
+    background-color: #393939;
+  }
+  66% {
+    background-color: #5bacc3;
+  }
+  68% {
+    background-color: #393939;
+  }
+  70% {
+    background-color: #5bacc3;
+  }
+  72% {
+    background-color: #393939;
+  }
+  74% {
+    background-color: #5bacc3;
+  }
+  76% {
+    background-color: #393939;
+  }
+  78% {
+    background-color: #5bacc3;
+  }
+  80% {
+    background-color: #393939;
+  }
+  82% {
+    background-color: #5bacc3;
+  }
+  84% {
+    background-color: #5bacc3;
+  }
+  86% {
+    background-color: #393939;
+  }
+  88% {
+    background-color: #5bacc3;
+  }
+  90% {
+    background-color: #393939;
+  }
+  92% {
+    background-color: #5bacc3;
+  }
+  94% {
+    background-color: #393939;
+  }
+  96% {
+    background-color: #5bacc3;
+  }
+  98% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: #393939;
+  }
+  0% {
+    background-color: #5bacc3;
+  }
+  2% {
+    background-color: #5bacc3;
+  }
+}
+@keyframes background-change {
+  0% {
+    background-color: #393939;
+  }
+  2% {
+    background-color: #5bacc3;
+  }
+  4% {
+    background-color: #393939;
+  }
+  8% {
+    background-color: #5bacc3;
+  }
+  10% {
+    background-color: #393939;
+  }
+  12% {
+    background-color: #5bacc3;
+  }
+  14% {
+    background-color: #393939;
+  }
+  16% {
+    background-color: #5bacc3;
+  }
+  18% {
+    background-color: #393939;
+  }
+  20% {
+    background-color: #5bacc3;
+  }
+  22% {
+    background-color: #393939;
+  }
+  24% {
+    background-color: #5bacc3;
+  }
+  26% {
+    background-color: #393939;
+  }
+  28% {
+    background-color: #5bacc3;
+  }
+  30% {
+    background-color: #393939;
+  }
+  32% {
+    background-color: #5bacc3;
+  }
+  34% {
+    background-color: #393939;
+  }
+  36% {
+    background-color: #5bacc3;
+  }
+  38% {
+    background-color: #393939;
+  }
+  40% {
+    background-color: #5bacc3;
+  }
+  42% {
+    background-color: #5bacc3;
+  }
+  44% {
+    background-color: #393939;
+  }
+  46% {
+    background-color: #5bacc3;
+  }
+  48% {
+    background-color: #393939;
+  }
+  50% {
+    background-color: #5bacc3;
+  }
+  52% {
+    background-color: #393939;
+  }
+  54% {
+    background-color: #5bacc3;
+  }
+  56% {
+    background-color: #393939;
+  }
+  58% {
+    background-color: #5bacc3;
+  }
+  60% {
+    background-color: #393939;
+  }
+  62% {
+    background-color: #5bacc3;
+  }
+  64% {
+    background-color: #393939;
+  }
+  66% {
+    background-color: #5bacc3;
+  }
+  68% {
+    background-color: #393939;
+  }
+  70% {
+    background-color: #5bacc3;
+  }
+  72% {
+    background-color: #393939;
+  }
+  74% {
+    background-color: #5bacc3;
+  }
+  76% {
+    background-color: #393939;
+  }
+  78% {
+    background-color: #5bacc3;
+  }
+  80% {
+    background-color: #393939;
+  }
+  82% {
+    background-color: #5bacc3;
+  }
+  84% {
+    background-color: #5bacc3;
+  }
+  86% {
+    background-color: #393939;
+  }
+  88% {
+    background-color: #5bacc3;
+  }
+  90% {
+    background-color: #393939;
+  }
+  92% {
+    background-color: #5bacc3;
+  }
+  94% {
+    background-color: #393939;
+  }
+  96% {
+    background-color: #5bacc3;
+  }
+  98% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: #393939;
+  }
+  0% {
+    background-color: #5bacc3;
+  }
+  2% {
+    background-color: #5bacc3;
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(-180deg);
+  }
+  5% {
+    transform: rotate(-360deg);
+  }
+  15% {
+    transform: rotate(-540deg);
+  }
+  20% {
+    transform: rotate(-720deg);
+  }
+  25% {
+    transform: rotate(-900deg);
+  }
+  30% {
+    transform: rotate(-1080deg);
+  }
+  35% {
+    transform: rotate(-1260deg);
+  }
+  40% {
+    transform: rotate(-1440deg);
+  }
+  45% {
+    transform: rotate(-1620deg);
+  }
+  50% {
+    transform: rotate(-1800deg);
+  }
+  55% {
+    transform: rotate(-1980deg);
+  }
+  60% {
+    transform: rotate(-2160deg);
+  }
+  65% {
+    transform: rotate(-2340deg);
+  }
+  70% {
+    transform: rotate(-2520deg);
+  }
+  75% {
+    transform: rotate(-2700deg);
+  }
+  80% {
+    transform: rotate(-2880deg);
+  }
+  85% {
+    transform: rotate(-3060deg);
+  }
+  90% {
+    transform: rotate(-3240deg);
+  }
+  95% {
+    transform: rotate(-3420deg);
+  }
+  100% {
+    transform: rotate(-3600deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(-180deg);
+  }
+  5% {
+    transform: rotate(-360deg);
+  }
+  15% {
+    transform: rotate(-540deg);
+  }
+  20% {
+    transform: rotate(-720deg);
+  }
+  25% {
+    transform: rotate(-900deg);
+  }
+  30% {
+    transform: rotate(-1080deg);
+  }
+  35% {
+    transform: rotate(-1260deg);
+  }
+  40% {
+    transform: rotate(-1440deg);
+  }
+  45% {
+    transform: rotate(-1620deg);
+  }
+  50% {
+    transform: rotate(-1800deg);
+  }
+  55% {
+    transform: rotate(-1980deg);
+  }
+  60% {
+    transform: rotate(-2160deg);
+  }
+  65% {
+    transform: rotate(-2340deg);
+  }
+  70% {
+    transform: rotate(-2520deg);
+  }
+  75% {
+    transform: rotate(-2700deg);
+  }
+  80% {
+    transform: rotate(-2880deg);
+  }
+  85% {
+    transform: rotate(-3060deg);
+  }
+  90% {
+    transform: rotate(-3240deg);
+  }
+  95% {
+    transform: rotate(-3420deg);
+  }
+  100% {
+    transform: rotate(-3600deg);
+  }
+}
 /* background color change for section containin "Nitro Coffee"
 and big coffee bag img */
 header {
@@ -50,6 +490,10 @@ header {
   bottom: 0.3125rem;
   right: 0.3125rem;
 }
+.hero-banner__content__cta-container__item:active {
+  bottom: 0;
+  right: 0;
+}
 
 .product {
   display: flex;
@@ -83,6 +527,10 @@ header {
   padding: 0.625rem;
   bottom: 0.3125rem;
   right: 0.3125rem;
+}
+.product__cta__background:active {
+  bottom: 0;
+  right: 0;
 }
 .product__list {
   display: flex;
@@ -157,6 +605,10 @@ header {
   text-align: center;
   padding: 1.5rem 1rem;
   margin: 10% 5%;
+  -webkit-animation-name: "background-change";
+  animation-name: "background-change";
+  -webkit-animation-duration: 60s;
+  animation-duration: 60s;
 }
 .discount__banner__word {
   font-weight: 700;
@@ -218,6 +670,10 @@ header {
   bottom: 0.3125rem;
   right: 0.3125rem;
 }
+.discount__main__elements__cta__item:active {
+  bottom: 0;
+  right: 0;
+}
 .discount__main__image-container {
   box-sizing: border-box;
   position: relative;
@@ -243,6 +699,13 @@ header {
   bottom: 2rem;
   right: 2rem;
 }
+.discount__main__image-container__image:hover {
+  -webkit-animation: "rotate";
+  animation: "rotate";
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  transition-timing-function: ease-in-out;
+}
 
 .social-logos {
   min-width: 3.125rem;
@@ -254,8 +717,26 @@ header {
 
 .footer {
   display: flex;
+  display: relative;
   justify-content: space-between;
   padding: 5% 5%;
+}
+.footer__logo-images {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.6;
+  margin-left: -8%;
+  margin-right: 100%;
+  margin-top: -4%;
+}
+.footer__logo-images--position-right {
+  margin-left: 87%;
+  margin-right: 0%;
+  margin-top: 8%;
 }
 .footer__location {
   display: inline-block;
@@ -286,4 +767,4 @@ header {
   display: inline-block;
   vertical-align: top;
   text-align: left;
-}/*# sourceMappingURL=landing.css.map */
+} /*# sourceMappingURL=landing.css.map */

@@ -1,0 +1,223 @@
+@use "../partials/colors";
+
+@keyframes background-change {
+  0% {
+    background-color: colors.$dark;
+  }
+  2% {
+    background-color: colors.$primary;
+  }
+  4% {
+    background-color: colors.$dark;
+  }
+  8% {
+    background-color: colors.$primary;
+  }
+  10% {
+    background-color: colors.$dark;
+  }
+  12% {
+    background-color: colors.$primary;
+  }
+  14% {
+    background-color: colors.$dark;
+  }
+  16% {
+    background-color: colors.$primary;
+  }
+  18% {
+    background-color: colors.$dark;
+  }
+  20% {
+    background-color: colors.$primary;
+  }
+  22% {
+    background-color: colors.$dark;
+  }
+  24% {
+    background-color: colors.$primary;
+  }
+  26% {
+    background-color: colors.$dark;
+  }
+  28% {
+    background-color: colors.$primary;
+  }
+  30% {
+    background-color: colors.$dark;
+  }
+  32% {
+    background-color: colors.$primary;
+  }
+  34% {
+    background-color: colors.$dark;
+  }
+  36% {
+    background-color: colors.$primary;
+  }
+  38% {
+    background-color: colors.$dark;
+  }
+  40% {
+    background-color: colors.$primary;
+  }
+  42% {
+    background-color: colors.$primary;
+  }
+  44% {
+    background-color: colors.$dark;
+  }
+  46% {
+    background-color: colors.$primary;
+  }
+  48% {
+    background-color: colors.$dark;
+  }
+  50% {
+    background-color: colors.$primary;
+  }
+  52% {
+    background-color: colors.$dark;
+  }
+  54% {
+    background-color: colors.$primary;
+  }
+  56% {
+    background-color: colors.$dark;
+  }
+  58% {
+    background-color: colors.$primary;
+  }
+  60% {
+    background-color: colors.$dark;
+  }
+  62% {
+    background-color: colors.$primary;
+  }
+  64% {
+    background-color: colors.$dark;
+  }
+  66% {
+    background-color: colors.$primary;
+  }
+  68% {
+    background-color: colors.$dark;
+  }
+  70% {
+    background-color: colors.$primary;
+  }
+  72% {
+    background-color: colors.$dark;
+  }
+  74% {
+    background-color: colors.$primary;
+  }
+  76% {
+    background-color: colors.$dark;
+  }
+  78% {
+    background-color: colors.$primary;
+  }
+  80% {
+    background-color: colors.$dark;
+  }
+  82% {
+    background-color: colors.$primary;
+  }
+  84% {
+    background-color: colors.$primary;
+  }
+  86% {
+    background-color: colors.$dark;
+  }
+  88% {
+    background-color: colors.$primary;
+  }
+  90% {
+    background-color: colors.$dark;
+  }
+  92% {
+    background-color: colors.$primary;
+  }
+  94% {
+    background-color: colors.$dark;
+  }
+  96% {
+    background-color: colors.$primary;
+  }
+  98% {
+    background-color: colors.$primary;
+  }
+  100% {
+    background-color: colors.$dark;
+  }
+  0% {
+    background-color: colors.$primary;
+  }
+  2% {
+    background-color: colors.$primary;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-180deg);
+  }
+  5% {
+    transform: rotate(-360deg);
+  }
+  15% {
+    transform: rotate(-540deg);
+  }
+  20% {
+    transform: rotate(-720deg);
+  }
+  25% {
+    transform: rotate(-900deg);
+  }
+  30% {
+    transform: rotate(-1080deg);
+  }
+  35% {
+    transform: rotate(-1260deg);
+  }
+  40% {
+    transform: rotate(-1440deg);
+  }
+  45% {
+    transform: rotate(-1620deg);
+  }
+  50% {
+    transform: rotate(-1800deg);
+  }
+  55% {
+    transform: rotate(-1980deg);
+  }
+  60% {
+    transform: rotate(-2160deg);
+  }
+  65% {
+    transform: rotate(-2340deg);
+  }
+  70% {
+    transform: rotate(-2520deg);
+  }
+  75% {
+    transform: rotate(-2700deg);
+  }
+  80% {
+    transform: rotate(-2880deg);
+  }
+  85% {
+    transform: rotate(-3060deg);
+  }
+  90% {
+    transform: rotate(-3240deg);
+  }
+  95% {
+    transform: rotate(-3420deg);
+  }
+  100% {
+    transform: rotate(-3600deg);
+  }
+}
