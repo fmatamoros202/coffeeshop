@@ -262,10 +262,9 @@ header {
     &__image-container {
       box-sizing: border-box;
       position: relative;
-      /* margin: 5% 5%; */
       width: 31.25rem;
       height: 40rem;
-      background: url(/assets/coldbrewbackground.png);
+      background: url(".././assets/coldbrewbackground.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -278,7 +277,6 @@ header {
         width: 100%;
         height: 40rem;
         padding: 10% 5%;
-        /* justify-content: */
         border: colors.$primary 0.3125rem solid;
         position: relative;
         bottom: 2rem;

@@ -680,7 +680,7 @@ header {
   /* margin: 5% 5%; */
   width: 31.25rem;
   height: 40rem;
-  background: url(/assets/coldbrewbackground.png);
+  background: url("../assets/coldbrewbackground.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
